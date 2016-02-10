@@ -1,0 +1,35 @@
+﻿body {
+    background-color: #D3D3D3;
+}
+#anketa {
+    background-color: white;
+    width: 35%;
+    height: 100%;
+    margin: auto;
+    padding: 1.5% 0;
+    box-shadow: 2px 1px 12px 0px rgba(0,0,0,0.75);
+}
+.center {
+    text-align: center;
+}
+img {
+    width: 30%;
+    height:30%;
+}
+hr {
+    width: 85%;
+}
+.otstup1 {
+    margin-left: 10%;
+    margin-bottom: 3%;
+    margin-top: 1%;
+}
+.otstup2 {
+    margin-left: 10%;
+    padding-top: 3%;
+}
+ul {
+    margin-left: 7%;
+    line-height: 150%;
+    margin-top: 5%;
+}
