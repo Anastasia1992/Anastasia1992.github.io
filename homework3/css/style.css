@@ -26,13 +26,15 @@ body {
   height: 40px;
   margin: 0px auto 40px;
   padding-left: 2px;
-  background-image: url(../img/menu.jpg);
+  background: linear-gradient(to top, #444343, #5e5e5e);
   line-height: 40px;
 }
 .menu a {
   display: inline-block;
   width: 99px;
   margin: 0px 40px 0px 0px;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
   font-size: 14.67px;
   text-align: center;
   color: #fff;
