@@ -29,6 +29,9 @@ body {
   background: linear-gradient(to top, #444343, #5e5e5e);
   line-height: 40px;
 }
+.menu li {
+  float: left;
+}
 .menu a {
   display: inline-block;
   width: 99px;
@@ -59,24 +62,32 @@ body {
   padding-left: 23px;
   border-bottom: 1px solid #c8c8c8;
   font-size: 13.33px;
-  color: #656363;
 }
 .sidebar li:hover {
   padding-left: 36px;
   background-color: #f9f9f9;
+}
+a {
+  text-decoration: none;
+  color: #656363;
+}
+.sidebar li:hover > a {
   color: #000;
 }
 .content {
+  margin: 0px 0px 63px 334px;
+  width: 676px;
+}
+.photo {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0px 0px 40px 334px;
-  width: 676px;
+  margin-bottom: 40px;
   height: 398px;
   border: 1px solid #c8c8c8;
 }
 p {
-  margin: 40px 49px 63px 359px;
+  margin-left: 25px;
   line-height: 22px;
   font-size: 14px;
   color: #2c2c2c;
