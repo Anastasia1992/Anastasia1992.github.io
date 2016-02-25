@@ -1,0 +1,39 @@
+body {
+  background-color: #282828;
+}
+table {
+  margin: 0 auto;
+  background-color: #fff;
+}
+td {
+  width: 30px;
+  height: 30px;
+  border-top: 10px solid #000;
+  border-left: 10px solid #000;
+}
+.yellow {
+  background-color: #fff56b;
+}
+.red {
+  background-color: #ff6144;
+}
+.blue {
+  background-color: #0c4c91;
+}
+.dark {
+  background-color: #191919;
+}
+.first_line td {
+  border-top: 0;
+}
+td:last-child {
+  border: 0;
+  background-color: #282828;
+}
+td:first-child {
+  border-left: 0;
+}
+.hidden td {
+  border: 0;
+  background-color: #282828;
+}
