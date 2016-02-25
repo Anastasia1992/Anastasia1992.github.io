@@ -178,6 +178,7 @@ input[type="submit"] {
   border-left: 2px solid #56a2dd;
   border-right: 2px solid #53a0db;
   border-bottom: 2px solid #3686ca;
+  border-radius: 4px;
   box-shadow: 0px 0px 1px 0px rgba(70,97,113,1);
   color: #fff;
 }
