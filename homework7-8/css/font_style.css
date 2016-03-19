@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'League Gothic';
+    src: url('../fonts/leaguegothic/leaguegothic-regular-webfont.eot');
+    src: url('../fonts/leaguegothic/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/leaguegothic/leaguegothic-regular-webfont.woff2') format('woff2'),
+         url('../fonts/leaguegothic/leaguegothic-regular-webfont.woff') format('woff'),
+         url('../fonts/leaguegothic/leaguegothic-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'fontello';
+  src: url('../fonts/fontello/fontello.eot?83267326');
+  src: url('../fonts/fontello/fontello.eot?83267326#iefix') format('embedded-opentype'),
+       url('../fonts/fontello/fontello.woff2?83267326') format('woff2'),
+       url('../fonts/fontello/fontello.woff?83267326') format('woff'),
+       url('../fonts/fontello/fontello.ttf?83267326') format('truetype'),
+       url('../fonts/fontello/fontello.svg?83267326#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
