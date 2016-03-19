@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'League Gothic';
+    src: url('../fonts/leaguegothic-regular-webfont.eot');
+    src: url('../fonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/leaguegothic-regular-webfont.woff2') format('woff2'),
+         url('../fonts/leaguegothic-regular-webfont.woff') format('woff'),
+         url('../fonts/leaguegothic-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+  font-family: "League Gothic";
+  font-size: 12px;
+}
+/**/
+/**/
+/*BACKGROUND STYLE*/
+/**/
+/**/
+.background-header {
+  width: 100%;
+  background-image: url(../img/bg-header.jpg);
+  /*background-position: center center;*/
+  background-repeat: no-repeat;
+  /*background-attachment: fixed;*/
+  background-size: cover;
+}
+.background-slider {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.background-info {
+  width: 100%;
+  background: linear-gradient(to top, #322539, #745083);
+  border-top: 1px solid #33253a;
+  border-bottom: 1px solid #1d2f37;
+}
+.background-comments {
+  width: 100%;
+  background-color: #f9f9f9;
+  border-top: 1px solid #12191f;
+  border-bottom: 1px solid #e6e6e6;
+}
+.background-brands {
+  width: 100%;
+  background-color: #f9f9f9;
+  border-top: 1px solid #fefefe;
+  border-bottom: 1px solid #fefefe;
+}
+.background-news {
+  width: 100%;
+  background-color: #ececec;
+  border-top: 1px solid #d8d8d8;
+}
+.background-footer {
+  overflow: hidden;
+  width: 100%;
+  background-image: url(../img/bg-footer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-filter: blur(4px);
+}
+/**/
+/**/
+/*GENERAL STYLE*/
+/**/
+/**/
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.container-header {
+  display: block;
+  overflow: hidden;
+  text-transform: uppercase;
+}
+.logo {
+  float: left;
+  background: linear-gradient(to top, #33263a, #745083);
+  -webkit-background-clip: text;
+  color:#fff;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.logo span {
+  color: transparent;
+  text-shadow: none;
+}
+.menu {
+  float: right;
+}
+.menu__item {
+  float: left;
+}
+.menu__link {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+}
+.menu__item:hover .menu__link {
+  border-bottom: 2px solid #edbfff;
+}
+@media (min-width: 960px) {
+  .wrapper {
+    max-width: 960px;
+    padding: 0 287px;
+  }
+  /**/
+  /**/
+  /*HEADER*/
+  /**/
+  /**/
+  .background-header {
+    height: 338px;
+  }
+  .background-slider {
+    height: 160px;
+  }
+  .container-header {
+    margin-bottom: 65px;
+    padding-top: 27px;
+  }
+  .logo {
+    font-size: 160%;
+  }
+  .menu__item {
+    margin: 3px 0 0 20px;
+    font-size: 10px;
+  }
+
+  .background-info {
+    height: 134px;
+  }
+  .background-comments {
+    height: 194px;
+  }
+  .background-brands {
+    height: 45px;
+  }
+  .background-news {
+    height: 159px;
+  }
+  .background-footer {
+    height: 45px;
+    background-position: center 93.4%;
+  }
+}
